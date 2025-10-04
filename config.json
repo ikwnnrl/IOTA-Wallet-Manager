@@ -1,0 +1,9 @@
+{
+  "autoLoop": {
+    "enabled": true,
+    "intervalHours": 24,
+    "enableStaking": true,
+    "enableFaucet": true,
+    "lastRun": null
+  }
+}

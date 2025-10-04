@@ -1,0 +1,41 @@
+{
+  "name": "iota-wallet-manager",
+  "version": "1.0.0",
+  "description": "Skrip interaktif untuk manajemen multi-wallet IOTA dengan fitur sebar, kumpulkan, cek saldo, dan auto faucet untuk testnet/devnet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "extract": "node extract-privatekey.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iota",
+    "wallet",
+    "manager",
+    "automation",
+    "faucet",
+    "testnet",
+    "devnet",
+    "crypto",
+    "blockchain",
+    "mnemonic",
+    "private-key"
+  ],
+  "author": "Wongsugih.exe",
+  "license": "MIT",
+  "dependencies": {
+    "@iota/iota-sdk": "^1.0.0",
+    "@scure/bip32": "^1.3.0",
+    "@scure/bip39": "^1.2.0",
+    "chalk": "^4.1.2",
+    "undici": "^5.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
